@@ -1,0 +1,111 @@
+/* Qaabaynta Guud */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    clear: both; /* Muhiim ah si uu hoos u dego */
+}
+
+/* Page 1: 2-Column Layout */
+.bidix-content {
+    float: left;
+    width: 70%;
+    background-color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.midig-sidebar {
+    float: right;
+    width: 28%;
+    background-color: #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.nadiifiye::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Page 2: Team Page (Float & Overflow) */
+.kooxda-container {
+    overflow: auto; /* Xallinta dhibaatada float-ka */
+    background-color: white;
+    padding: 15px;
+}
+
+.qof-card {
+    float: left;
+    width: 22%;
+    margin: 1%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #fafafa;
+}
+
+.qof-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Page 3 & 4: Forms */
+.foom-sanduq {
+    background-color: white;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.foom-line {
+    margin-bottom: 15px;
+}
+
+.foom-line label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.foom-line input[type="text"],
+.foom-line input[type="email"],
+.foom-line input[type="password"],
+.foom-line select,
+.foom-line textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.badhan {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
